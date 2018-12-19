@@ -15,11 +15,9 @@ nav {
 .logo {
   margin: 20px;
   width: 100px;
-  image: url(images/bloc-logo.png);
 }
 
 .large-pic {
-  image: url(/Users/rebeccabaror/css-exercise-two/images/instagram-pic.jpg
   width: 100%);
 }
 
@@ -46,6 +44,14 @@ li {
   float: right;
   padding: 30px;
   font-size: 2em;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: lightgreen;
 }
 
 article {
